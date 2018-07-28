@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/song_height"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/album_art"
+        android:layout_width="@dimen/image_logo_size"
+        android:layout_height="@dimen/image_logo_size"
+        tools:src="@drawable/bouquet" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="@dimen/normal_padding">
+
+        <TextView
+            android:id="@+id/song_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/song_text_size"
+            tools:text="Good Intentions" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/artist_text_size"
+            tools:text="@string/chainsmokers" />
+
+    </LinearLayout>
+
+</LinearLayout>

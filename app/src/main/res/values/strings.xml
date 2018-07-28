@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="bouquet">Bouquet</string>
+    <string name="collage">Collage</string>
+    <string name="colour">Colour The Small One</string>
+    <string name="listen">Listen</string>
+    <string name="chainsmokers">The Chainsmokers</string>
+    <string name="sia">Sia</string>
+    <string name="david">David Guetta</string>
+
+    <string name="roses">Roses</string>
+    <string name="nyc">New York City</string>
+    <string name="gone">Until You Were Gone</string>
+    <string name="waterbed">Waterbed</string>
+    <string name="intentions">Good Intentions</string>
+
+    <string name="fires">Setting Fires</string>
+    <string name="know">All We Know</string>
+    <string name="closer">Closer</string>
+    <string name="inside">Inside Out</string>
+    <string name="down">Don\'t Let Me Down</string>
+
+    <string name="sunday">Sunday</string>
+    <string name="breathe">Breathe Me</string>
+    <string name="bully">The Bully</string>
+    <string name="sweet">Sweet Potato</string>
+    <string name="bring">Don\'t Bring Me Down</string>
+    <string name="natalie">Natalie\'s Song</string>
+    <string name="butterflies">Butterflies</string>
+    <string name="moon">Moon</string>
+    <string name="numb">Numb</string>
+    <string name="belong">Where I Belong</string>
+
+    <string name="dangerous">Dangerous</string>
+    <string name="love">What I did for Love</string>
+    <string name="lovers">Lovers on the Sun</string>
+    <string name="loving">I\'ll Keep Loving You</string>
+    <string name="whisperer">The Whisperer</string>
+    <string name="bad">Bad</string>
+    <string name="rise">Rise</string>
+    <string name="shot">Shot Me Down</string>
+    <string name="bang">Bang My Head</string>
+    <string name="wolf">She Wolf</string>
+</resources>
