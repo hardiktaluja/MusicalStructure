@@ -16,14 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BouquetActivity"
-            android:label="Bouquet"/>
-        <activity android:name=".CollageActivity"
-            android:label="Collage"/>
-        <activity android:name=".ColourActivity"
-            android:label="Colour The Small One"/>
-        <activity android:name=".ListenActivity"
-            android:label="Listen"></activity>
+        <activity
+            android:name=".BouquetActivity"
+            android:label="Bouquet"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CollageActivity"
+            android:label="Collage"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ColourActivity"
+            android:label="Colour The Small One"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ListenActivity"
+            android:label="Listen"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
