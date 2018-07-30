@@ -23,6 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:contentDescription="@string/album_art"
                 android:scaleType="fitXY"
                 android:src="@drawable/bouquet" />
 
@@ -59,6 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:contentDescription="@string/album_art"
                 android:scaleType="fitXY"
                 android:src="@drawable/collage" />
 
@@ -104,6 +106,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:contentDescription="@string/album_art"
                 android:scaleType="fitXY"
                 android:src="@drawable/colour" />
 
@@ -142,6 +145,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:contentDescription="@string/album_art"
                 android:scaleType="fitXY"
                 android:src="@drawable/listen" />
 

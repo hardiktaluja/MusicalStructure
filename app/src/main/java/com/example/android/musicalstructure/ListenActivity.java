@@ -27,7 +27,7 @@ public class ListenActivity extends AppCompatActivity {
         songs.add(new Song(getString(R.string.wolf), getString(R.string.david), R.drawable.listen));
 
         SongAdapter adapter = new SongAdapter(this, songs);
-        ListView listView = (ListView) findViewById(R.id.list);
+        ListView listView = findViewById(R.id.list);
         listView.setAdapter(adapter);
     }
 }

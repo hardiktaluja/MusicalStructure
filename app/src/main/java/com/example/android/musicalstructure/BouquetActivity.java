@@ -23,7 +23,7 @@ public class BouquetActivity extends AppCompatActivity {
         songs.add(new Song(getString(R.string.intentions), getString(R.string.chainsmokers), R.drawable.bouquet));
 
         SongAdapter adapter = new SongAdapter(this, songs);
-        ListView listView = (ListView) findViewById(R.id.list);
+        ListView listView = findViewById(R.id.list);
         listView.setAdapter(adapter);
 
     }

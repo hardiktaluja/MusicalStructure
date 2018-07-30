@@ -27,7 +27,7 @@ public class ColourActivity extends AppCompatActivity {
         songs.add(new Song(getString(R.string.belong), getString(R.string.sia), R.drawable.colour));
 
         SongAdapter adapter = new SongAdapter(this, songs);
-        ListView listView = (ListView) findViewById(R.id.list);
+        ListView listView = findViewById(R.id.list);
         listView.setAdapter(adapter);
     }
 }

@@ -18,25 +18,34 @@ public class SongAdapter extends ArrayAdapter<Song> {
         super(context, 0, songs);
     }
 
+    static class ViewHolder {
+        private TextView songTextView;
+        private TextView artistTextView;
+        private ImageView albumArt;
+    }
+
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View songView = convertView;
-        if (songView == null) {
-            songView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+
+        ViewHolder holder;
+        if (null == convertView) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+            holder = new ViewHolder();
+            holder.songTextView = convertView.findViewById(R.id.song_name);
+            holder.artistTextView = convertView.findViewById(R.id.artist_name);
+            holder.albumArt = convertView.findViewById(R.id.album_art);
+            convertView.setTag(holder);
+        } else {
+            holder = (ViewHolder) convertView.getTag();
         }
 
         Song currentSong = getItem(position);
 
-        TextView songTextView = (TextView) songView.findViewById(R.id.song_name);
-        songTextView.setText(currentSong.getSongName());
+        holder.songTextView.setText(currentSong.getSongName());
+        holder.artistTextView.setText(currentSong.getArtistName());
+        holder.albumArt.setImageResource(currentSong.getAlbumArt());
 
-        TextView artistTextView = (TextView) songView.findViewById(R.id.artist_name);
-        artistTextView.setText(currentSong.getArtistName());
-
-        ImageView albumArt = (ImageView) songView.findViewById(R.id.album_art);
-        albumArt.setImageResource(currentSong.getAlbumArt());
-
-        return songView;
+        return convertView;
     }
 }

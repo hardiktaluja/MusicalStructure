@@ -6,17 +6,18 @@
     android:orientation="horizontal">
 
     <ImageView
-        android:scaleType="fitXY"
         android:id="@+id/album_art"
         android:layout_width="@dimen/image_logo_size"
         android:layout_height="@dimen/image_logo_size"
+        android:contentDescription="@string/album_art"
+        android:scaleType="fitXY"
         tools:src="@drawable/bouquet" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:gravity="center"
+        android:orientation="vertical"
         android:paddingLeft="@dimen/normal_padding">
 
         <TextView

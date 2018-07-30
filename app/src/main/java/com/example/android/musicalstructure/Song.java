@@ -2,27 +2,27 @@ package com.example.android.musicalstructure;
 
 public class Song {
 
-    private String mSongName;
+    private String songName;
 
-    private String mArtistName;
+    private String artistName;
 
-    private int mAlbumArt;
+    private int albumArt;
 
     public Song(String songName, String artistName, int albumArt) {
-        mSongName = songName;
-        mArtistName = artistName;
-        mAlbumArt = albumArt;
+        this.songName = songName;
+        this.artistName = artistName;
+        this.albumArt = albumArt;
     }
 
     public String getSongName() {
-        return mSongName;
+        return songName;
     }
 
     public String getArtistName() {
-        return mArtistName;
+        return artistName;
     }
 
     public int getAlbumArt() {
-        return mAlbumArt;
+        return albumArt;
     }
 }

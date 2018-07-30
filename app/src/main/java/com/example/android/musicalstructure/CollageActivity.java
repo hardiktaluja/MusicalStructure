@@ -22,7 +22,7 @@ public class CollageActivity extends AppCompatActivity {
         songs.add(new Song(getString(R.string.down), getString(R.string.chainsmokers), R.drawable.collage));
 
         SongAdapter adapter = new SongAdapter(this, songs);
-        ListView listView = (ListView) findViewById(R.id.list);
+        ListView listView = findViewById(R.id.list);
         listView.setAdapter(adapter);
 
     }

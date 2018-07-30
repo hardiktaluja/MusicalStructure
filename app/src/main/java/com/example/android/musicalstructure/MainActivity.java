@@ -16,16 +16,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LinearLayout bouquet = (LinearLayout) findViewById(R.id.bouquet);
+        LinearLayout bouquet = findViewById(R.id.bouquet);
         bouquet.setOnClickListener(this);
 
-        LinearLayout collage = (LinearLayout) findViewById(R.id.collage);
+        LinearLayout collage = findViewById(R.id.collage);
         collage.setOnClickListener(this);
 
-        LinearLayout colour = (LinearLayout) findViewById(R.id.colour);
+        LinearLayout colour = findViewById(R.id.colour);
         colour.setOnClickListener(this);
 
-        LinearLayout listen = (LinearLayout) findViewById(R.id.listen);
+        LinearLayout listen = findViewById(R.id.listen);
         listen.setOnClickListener(this);
     }
 
